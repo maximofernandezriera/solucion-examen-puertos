@@ -33,7 +33,7 @@ public abstract class Barco {
 		return matricula;
 	}
 	
-	
+	//Podría ser abstract y ser implementado en sus hijas.
 	public boolean encajaTipo(Pantalan pantalan) {
 		boolean encaja;
 		
@@ -48,7 +48,7 @@ public abstract class Barco {
 		return encaja;
 	}
 	
-	
+	//Podría ser abstract y ser implementado en sus hijas.
 	public float encajaTamanyo(Amarre amarre) {
 		return amarre.getTamanyo()-this.getTamanyo();
 	}
